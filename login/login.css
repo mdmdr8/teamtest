@@ -1,9 +1,10 @@
-.div{
-    width: 30%;
-    height: 40%;
-    border-style: solid ;
-    border-color: greenyellow;
+.login_box{
+
+    width: 600px;
+    height: 600px;
+    border-style: 1px solid greenyellow;
 }
 .loginBtn{
     width: 20%;
 }
+

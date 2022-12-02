@@ -1,0 +1,66 @@
+.nav1{
+    position: sticky;
+    top:0;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+
+    margin-left: 16px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* 
+footer{
+
+    bottom: 0;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+
+} */
+
+footer {
+    width: 100%;
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+    color:white;
+    background-color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.body-content {
+    margin-top: 100px;
+    padding-bottom: 99999px; /* footer의 높이 */
+}
+
