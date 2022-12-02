@@ -1,0 +1,9 @@
+.div{
+    width: 30%;
+    height: 40%;
+    border-style: solid ;
+    border-color: greenyellow;
+}
+.loginBtn{
+    width: 20%;
+}
