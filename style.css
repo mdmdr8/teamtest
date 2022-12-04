@@ -1,3 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    /* display: flex;
+    justify-content: center; */
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+    /* padding-top: 60px; */
+  }
+
+ footer{
+
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+ ;
+  }
+
 .nav1{
     position: sticky;
     top:0;
@@ -28,39 +51,3 @@ li{
     font-size: 18px;
     font-weight: bold;
 }
-/* 
-footer{
-
-    bottom: 0;
-    background-color: black;
-
-    display: flex;
-    align-items: center;
-
-} */
-
-footer {
-    width: 100%;
-    position: relative;  
-    bottom: 0;
-    left: 0;
-    color:white;
-    background-color: black;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-.body-wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-.body-content {
-    margin-top: 100px;
-    padding-bottom: 99999px; /* footer의 높이 */
-}
-
