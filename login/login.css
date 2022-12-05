@@ -1,8 +1,11 @@
 .login_box{
-
-    width: 600px;
-    height: 600px;
+    padding-top: 5%;
+    border: solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
     border-style: 1px solid greenyellow;
+    text-align: center;
 }
 .loginBtn{
     width: 20%;
