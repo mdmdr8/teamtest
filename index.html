@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <script src="/includeHTML.js"></script>
     <title>Document</title>
 </head>
 <body>
-
-    <header>
+    <header include-html="/header.html"></header>
+    <!-- <header>
         <nav>
             <ul class="nav1">
-                <a href="index.html"><li>home</li></a>
+                <a href="/index.html"><li>home</li></a>
                 <li>CookCrew</li>
-                <a href="./login/login.html"><li>login</li></a>
-                <a href="./login/joinus.html"><li>join</li></a>
+                <a href="/login/login.html"><li>login</li></a>
+                <a href="/login/joinus.html"><li>join</li></a>
             </ul>
 
             <ul class="nav2">
                 <a href="index.html"><li>home</li></a>
-                <a href="diet/dietRecipeCallendar.html"><li>식단표 Plan</li></a>
-                <a href="TotalRef/TotalRef.html"><li>전체 레시피</li></a>
-                <a href="recipe/recipelanking.html"><li>레시피 랭킹</li></a>
+                <a href="/diet/dietRecipeCallendar.html"><li>식단표 Plan</li></a>
+                <a href="/TotalRef/TotalRef.html"><li>전체 레시피</li></a>
+                <a href="/recipe/recipelanking.html"><li>레시피 랭킹</li></a>
                 <a><li>베스트 쉐프</li></a>
                 <a><li>식당 랭킹</li></a>
             </ul>
             <hr/>
         </nav>
-    </header>
+    </header> -->
     <div style="align-items: center; width: 100%;">
         <img src="mainsrc/ginsengchickensoup.jpg" alt="메인배너" style="width:100% ;">
     </div>
@@ -55,5 +56,7 @@
         <div>고객센터 : 010 - 0000 - 0000</div>
     </footer>
 </body>
-
+<script>
+    includeHTML();
+</script>
 </html>
